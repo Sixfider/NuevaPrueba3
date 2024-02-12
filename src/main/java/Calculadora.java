@@ -14,4 +14,7 @@ public class Calculadora {
     public int resto(int a, int b){
         return a%b;
     }
+    public double raiz(int a){
+        return Math.sqrt(a);
+    }
 }
