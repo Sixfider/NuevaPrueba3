@@ -14,7 +14,12 @@ public class Calculadora {
     public int resto(int a, int b){
         return a%b;
     }
+
     public double raiz(int a){
         return Math.sqrt(a);
+    }
+  
+    public int potencia(int a, int b){ 
+        return (int) Math.pow(a,b);
     }
 }
